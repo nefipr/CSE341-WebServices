@@ -1,7 +1,12 @@
-export const EmaRoute = (req, res) => {
+const emaRoute = (req, res) => {
     res.send('Ema Esteves');
 };
 
-export const NefiRoute = (req, res) => {
+const nefiRoute = (req, res) => {
     res.send('Nefi Perez');
+};
+
+module.exports = {
+    emaRoute,
+    nefiRoute
 };
