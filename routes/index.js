@@ -1,5 +1,5 @@
 const routes = require('express').Router();
-const controllers = require('../controllers/index.js');
+const controllers = require('../controllers/index');
  
 routes.get('/', controllers.emaRoute);
 
