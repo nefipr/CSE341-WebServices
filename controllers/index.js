@@ -3,11 +3,11 @@ const emaRoute = (req, res) => {
 };
 
 const PameRoute = (req, res) => {
-    res.send('Ema Esteves');
+    res.send('Pame Perez');
 };
 
 const GaliRoute = (req, res) => {
-    res.send('Ema Esteves');
+    res.send('Gali Perez');
 };
 
 const nefiRoute = (req, res) => {
