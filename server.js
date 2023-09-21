@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
 const controllers = require('./controllers/index.js');
-
-const routes = require('express').Router()
  
 app.get('/', 'controllers.EmaRoute');
 
